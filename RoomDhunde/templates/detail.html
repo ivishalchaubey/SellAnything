@@ -1,0 +1,46 @@
+{% extends 'dummy.html'%}
+
+
+{%block style%}
+	
+{%endblock%}
+
+{%block body%}
+<div class="container card ">
+		<br>
+		<h1> -- Name -- <br> </h1> <p> {{ full_info.name }}</p>
+		<br/>
+		<hr/>
+		<br/>
+		<img src="{{ full_info.image }}" width="433px" height="auto">
+		<br/>
+		<hr/>
+		<br/>
+		<h1> -- Email --<br> </h1> <p>{{ full_info.email }}</p>
+		<br/>
+		<hr/>
+		<br/>
+		<h1> --Price --  <br> </h1> <p>{{ full_info.price }}</p>
+		<br/>
+		<hr/>
+		<br/>
+		<h1> -- Mobile No -- <br> </h1> <p> {{ full_info.mobile }}</p>
+		<br/>
+		<hr/>
+		<br/>
+		<h1> -- Uploading Time -- <br> </h1> <p> {{ full_info.date }}</p>
+		<br/>
+		<hr/>
+		<br/>
+
+		<h1> -- Full Description -- </h1><br><p>{{ full_info.discription }}</p>
+		<br/>
+		<hr/>
+		<br/>
+		<br/>
+
+
+</div>
+
+{%endblock%}
+
